@@ -39,7 +39,29 @@
       "address": "876 Moth St"
     }
   ],
-  "employees": [],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Sarah Smith",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Mathew Johns",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Caroline Dubey",
+      "locationId": 2
+    }
+
+  ],
   "locations": [
     {
       "id": 1,
