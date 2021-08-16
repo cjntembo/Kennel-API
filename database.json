@@ -20,47 +20,89 @@
       "breed": "Chihuahua",
       "customerId": 3,
       "locationId": 1
+    },
+    {
+      "name": "Fetch",
+      "breed": "Hotdog",
+      "locationId": 1,
+      "customerId": 2,
+      "id": 4
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "hannah@worldly.com"
     },
     {
       "id": 2,
       "name": "Mathew Brown",
-      "address": "148 Maple Way"
+      "address": "148 Maple Way",
+      "email": "MattB@browns.com"
     },
     {
       "id": 3,
       "name": "Chelsea Great",
-      "address": "876 Moth St"
+      "address": "876 Moth St",
+      "email": "Great@greatly.com"
+    },
+    {
+      "email": "Candy@youknowme.com",
+      "name": "Candy Gal",
+      "id": 4
     }
   ],
   "employees": [
     {
       "id": 1,
       "name": "Jeremy Bakker",
-      "locationId": 2
+      "locationId": 2,
+      "manager": "yes",
+      "fullTime": "yes",
+      "hourlyRate": "17.95"
     },
     {
       "id": 2,
       "name": "Sarah Smith",
-      "locationId": 1
+      "locationId": 1,
+      "manager": "yes",
+      "fullTime": "yes",
+      "hourlyRate": "17.95"
     },
     {
       "id": 3,
       "name": "Mathew Johns",
-      "locationId": 1
+      "locationId": 1,
+      "manager": "no",
+      "fullTime": "no",
+      "hourlyRate": "11.50"
     },
     {
       "id": 4,
       "name": "Caroline Dubey",
-      "locationId": 2
+      "locationId": 2,
+      "manager": "no",
+      "fullTime": "yes",
+      "hourlyRate": "12.80"
+    },
+    {
+      "name": "joker",
+      "locationId": 1,
+      "manager": "no",
+      "fullTime": "no",
+      "hourlyRate": "11.50",
+      "id": 5
+    },
+    {
+      "name": "Johnny Dash",
+      "locationId": 1,
+      "manager": "no",
+      "fullTime": "no",
+      "hourlyRate": "11.50",
+      "id": 6
     }
-
   ],
   "locations": [
     {
