@@ -1,25 +1,18 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 2
-    },
-    {
       "id": 2,
-      "name": "Bully",
+      "name": "Bullys",
       "breed": "Pitbull",
-      "customerId": 2,
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 2
     },
     {
       "id": 3,
       "name": "Chica",
       "breed": "Chihuahua",
-      "customerId": 3,
-      "locationId": 1
+      "locationId": 1,
+      "customerId": 1
     },
     {
       "name": "Fetch",
@@ -55,14 +48,6 @@
     }
   ],
   "employees": [
-    {
-      "id": 1,
-      "name": "Jeremy Bakker",
-      "locationId": 2,
-      "manager": "yes",
-      "fullTime": "yes",
-      "hourlyRate": "17.95"
-    },
     {
       "id": 2,
       "name": "Sarah Smith",
@@ -102,6 +87,14 @@
       "fullTime": "no",
       "hourlyRate": "11.50",
       "id": 6
+    },
+    {
+      "name": "Carter",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": true,
+      "hourlyRate": "11.55",
+      "id": 7
     }
   ],
   "locations": [
